@@ -70,8 +70,29 @@
 //
 
 //
+let students = [];
 // =============================================================================
-// YOUR CODE BELOW — remove the // symbols from the scaffold and fill it in
+{
+    name: name,
+    id: id,
+    scores: scores
+}
+average.toFixed(2)
+while (running)
+Error: Invalid menu choice. Please enter 1-4.
+Error: Student ID not found.
+  
+for (let i = 0; i < students.length; i++) {
+    if (students[i].id === id) {
+        console.log("Error: Student ID already exists.");
+        return;
+    }if (score < 0 || score > 100) {
+    console.log("Error: Score must be between 0 and 100.");
+    return;
+}
+
+}
+
 // =============================================================================
 
 
